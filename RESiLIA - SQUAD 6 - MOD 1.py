@@ -31,7 +31,7 @@ def menu_de_carros():
     escolhe_carro= input('Digite um número para o opção do carro que deseja: ')
     
     if escolhe_carro == '1':
-        opcionais_do_carro()
+        facilidades_do_carro ()
     elif escolhe_carro == '2':
         opcionais_do_carro()    
     elif escolhe_carro == '3':
@@ -261,9 +261,9 @@ menu()
 
 
 
+##############################################################################################################################################
 
-
-#####################################################################################################################################
+'''
 print('\n --- Um Porsche é tão individual quanto o seu proprietário.---\n\n SEJA BEM VINDO A PORSCHE, A MARCA MAIS DESEJADA DO AUTOMOBILISMO.\n' )
 nome= input('Como deseja ser chamado? ')
 email= input('\nDigite seu e-mail: ')
@@ -509,7 +509,7 @@ def reiniciar():
         return
 
 
-menu()
+menu'''
 
 
 

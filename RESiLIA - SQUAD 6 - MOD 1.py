@@ -31,7 +31,7 @@ def menu_de_carros():
     escolhe_carro= input('Digite um número para o opção do carro que deseja: ')
     
     if escolhe_carro == '1':
-        facilidades_do_carro ()
+        opcionais_do_carro ()
     elif escolhe_carro == '2':
         opcionais_do_carro()    
     elif escolhe_carro == '3':
